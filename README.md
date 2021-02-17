@@ -1,2 +1,2 @@
-# OrgnizedHome
+# OrganizedHome
 an iOS app
