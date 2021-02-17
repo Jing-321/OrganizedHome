@@ -1,2 +1,2 @@
 # OrgnizedHome
-an ISO app
+an iOS app
