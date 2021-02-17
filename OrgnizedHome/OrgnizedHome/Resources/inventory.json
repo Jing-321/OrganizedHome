@@ -1,0 +1,69 @@
+{
+    "inventory": {
+        "id": "fewfewfewfw",
+        "name": "My Inventory",
+        "areas": [
+            {
+                "id": "dsvav",
+                "name": "First Floor",
+                "areas": [
+                    {
+                        "id": "htrhr",
+                        "name": "Kitchen",
+                        "areas": [],
+                        "items": [
+                            {
+                                "id": "gregregerfwefew",
+                                "name": "锅",
+                                "note": "快坏了",
+                                "isFavorite": false
+                            }
+                        ],
+                        "isFavorite": false
+                    }
+                ],
+                "items": [],
+                "isFavorite": false
+            },
+            {
+                "id": "htrhdhtrd",
+                "name": "Second Floor",
+                "areas": [
+                    {
+                        "id": "dfbfdbgra",
+                        "name": "Bedroom",
+                        "areas": [],
+                        "items": [
+                            {
+                                "id": "bvcxbxvc",
+                                "name": "Pillow",
+                                "note": "",
+                                "isFavorite": false
+                            }
+                        ],
+                        "isFavorite": false
+                    },
+                    {
+                        "id": "ngfngfgn",
+                        "name": "椰房",
+                        "areas": [],
+                        "items": [
+                            {
+                                "id": "cvxzvx",
+                                "name": "球",
+                                "note": "",
+                                "isFavorite": false
+                            }
+                        ],
+                        "isFavorite": false
+                    }
+                ],
+                "items": [],
+                "isFavorite": false
+            }
+        ],
+        "items": [],
+        "isFavorite": false
+    },
+    "tags": []
+}

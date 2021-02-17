@@ -1,0 +1,73 @@
+/* No comment provided by engineer. */
+"%@ has been moved." = "%@ 已经被移动。";
+
+/* No comment provided by engineer. */
+"Add a picture from..." = "添加图片自...";
+
+/* No comment provided by engineer. */
+"Area" = "区域";
+
+/* No comment provided by engineer. */
+"Camera" = "相机";
+
+/* No comment provided by engineer. */
+"Expiring" = "即将过期";
+
+/* No comment provided by engineer. */
+"Favorites" = "个人收藏";
+
+/* No comment provided by engineer. */
+"Features in this tab are not implemented yet. The content is for demo purpose only." = "该页面中的功能尚未完成。内容仅供展示。";
+
+/* No comment provided by engineer. */
+"Inventory" = "物品清单";
+
+/* No comment provided by engineer. */
+"Item" = "物品";
+
+/* No comment provided by engineer. */
+"Me" = "我";
+
+/* No comment provided by engineer. */
+"My Inventory" = "我的物品清单";
+
+/* No comment provided by engineer. */
+"Name" = "名字";
+
+/* No comment provided by engineer. */
+"Navigate to" = "跳转至";
+
+/* No comment provided by engineer. */
+"Note" = "备注";
+
+/* No comment provided by engineer. */
+"Photo Library" = "照片库";
+
+/* No comment provided by engineer. */
+"Pick a picture from..." = "选取图片自...";
+
+/* No comment provided by engineer. */
+"Success" = "成功";
+
+/* No comment provided by engineer. */
+"Tags" = "标签";
+
+/* No comment provided by engineer. */
+"Type" = "类型";
+
+/* No comment provided by engineer. */
+"You must sign in to invite people to view or edit your inventory." = "您必须登录才能邀请其他人查看或编辑物品清单。";
+
+"Save" = "保存";
+
+"Done" = "完成";
+
+"Cancel" = "取消";
+
+"Add" = "添加";
+
+"Edit" = "编辑";
+
+"Move" = "移动";
+
+"Delete" = "删除";

@@ -1,0 +1,6 @@
+/* Bundle name */
+"CFBundleName" = "整洁家";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "需要授权访问相机和照片库。";
+
