@@ -39,6 +39,13 @@ struct ItemRow: View {
                 }
             }
             .padding(EdgeInsets(top: 0, leading: 5, bottom: 0, trailing: 5))
+            if item.isFavorite {
+                VStack {
+                    Spacer()
+                    Image(systemName: "star.fill").foregroundColor(.yellow)
+                    Spacer()
+                }
+            }
         }
         .padding(EdgeInsets(top: 5, leading: 20, bottom: 5, trailing: 20))
     }

@@ -64,6 +64,7 @@ struct AreaView: View {
                     .contextMenu {
                         Button(LocalizedStringKey("Edit"), action: { activeSheet = .editSheet })
                         Button(LocalizedStringKey("Move"), action: { activeSheet = .moveSheet })
+                        Button(LocalizedStringKey(item.isFavorite ? "Unfavorite" : "Favorite"), action: { item.toggleFavorite() })
                         Divider()
                         Button(LocalizedStringKey("Delete"), action: { item.delete() })
                     }

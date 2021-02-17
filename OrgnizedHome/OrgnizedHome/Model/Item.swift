@@ -44,9 +44,10 @@ class Item: BaseEntity {
         try container.encode(isFavorite, forKey: .isFavorite)
     }
     
-    func move(newLocation: Area, parent:Area) {
+    func move(newLocation: Area, parent: Area) {
         newLocation.items.append(self)
         parent.items.removeAll(where: {$0.id == self.id})
+        self.parent = newLocation
         DataStorage.save()
         parent.objectWillChange.send()
         newLocation.objectWillChange.send()

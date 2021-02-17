@@ -79,6 +79,7 @@ class Area: BaseEntity {
     func move(newLocation: Area, parent: Area) {
         newLocation.areas.append(self)
         parent.areas.removeAll(where: { $0.id == self.id})
+        self.parent = newLocation
         DataStorage.save()
         parent.objectWillChange.send()
         newLocation.objectWillChange.send()
