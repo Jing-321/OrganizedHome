@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MoveItemView: View {
     var hideSheetCallback: () -> Void
-    @State private var showAlert = false
+    // @State private var showAlert = false
     @State var item: Item
     @State var parent: Area
     
@@ -20,14 +20,14 @@ struct MoveItemView: View {
                         AreaRow(area: area)
                         .onTapGesture(perform: {
                             self.item.move(newLocation: area, parent: parent)
-                            showAlert.toggle()
+                            // showAlert.toggle()
                             hideSheetCallback()
                         })
                 }
-            }
+            }/*
             .alert(isPresented: $showAlert) {
                 Alert(title: Text("Success"), message: Text("\(self.item.name) has been moved."))
-            }
+            }*/
             .navigationTitle("Move \(item.name) to...").navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(trailing: Button(LocalizedStringKey("Done")) {
                 hideSheetCallback()

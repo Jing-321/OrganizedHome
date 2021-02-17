@@ -28,14 +28,6 @@ struct AreaBlock: View {
                          alignment: .bottomLeading)
                 .foregroundColor(.white)
                 .shadow(color: .gray, radius: 2, x: 2, y: 2)
-                .sheet(item: $activeSheet) { item in
-                    switch item {
-                    case .editSheet:
-                        EditAreaView(hideSheetCallback: { activeSheet = nil }, area: area)
-                    case .moveSheet:
-                        MoveView(hideSheetCallback: { activeSheet = nil }, area: self.area, parent: self.area.parent)
-                    }
-                }
         })
     }
 }

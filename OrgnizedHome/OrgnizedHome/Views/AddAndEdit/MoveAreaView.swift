@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct MoveView: View {
+struct MoveAreaView: View {
     var hideSheetCallback: () -> Void
-    @State private var showAlert = false
+    // @State private var showAlert = false
     @State var area: Area
     @State var parent: Area?
     
@@ -21,7 +21,7 @@ struct MoveView: View {
                         AreaRow(area: area)
                         .onTapGesture(perform: {
                             self.area.move(newLocation: area, parent: parent!)
-                            showAlert.toggle()
+                            // showAlert.toggle()
                             hideSheetCallback()
                         })
                     } else {
@@ -29,9 +29,10 @@ struct MoveView: View {
                     }
                 }
             }
+            /*
             .alert(isPresented: $showAlert) {
                 Alert(title: Text("Success"), message: Text("\(self.area.name) has been moved."))
-            }
+            }*/
             .navigationTitle("Move \(area.name) to...").navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(trailing: Button(LocalizedStringKey("Done")) {
                 hideSheetCallback()

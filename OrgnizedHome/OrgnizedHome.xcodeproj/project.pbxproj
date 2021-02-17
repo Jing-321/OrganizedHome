@@ -24,7 +24,7 @@
 		E374ACA725C3DF7C0013FA22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E374ACA625C3DF7C0013FA22 /* Preview Assets.xcassets */; };
 		E374ACAA25C3DF7C0013FA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E374ACA825C3DF7C0013FA22 /* LaunchScreen.storyboard */; };
 		E39047C025D26F0400482642 /* EditAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39047BF25D26F0400482642 /* EditAreaView.swift */; };
-		E39047C325D3B58800482642 /* MoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39047C225D3B58800482642 /* MoveView.swift */; };
+		E39047C325D3B58800482642 /* MoveAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39047C225D3B58800482642 /* MoveAreaView.swift */; };
 		E3F00B0325DC3BBF0009A286 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F00B0225DC3BBE0009A286 /* FavoriteView.swift */; };
 		E3F00B0B25DC92460009A286 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3F00B0925DC92460009A286 /* InfoPlist.strings */; };
 		E3F00B0F25DC971D0009A286 /* TagRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F00B0E25DC971D0009A286 /* TagRow.swift */; };
@@ -69,7 +69,7 @@
 		E374ACAB25C3DF7C0013FA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E39047BD25D268C100482642 /* OrgnizedHome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrgnizedHome.entitlements; sourceTree = "<group>"; };
 		E39047BF25D26F0400482642 /* EditAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAreaView.swift; sourceTree = "<group>"; };
-		E39047C225D3B58800482642 /* MoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveView.swift; sourceTree = "<group>"; };
+		E39047C225D3B58800482642 /* MoveAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveAreaView.swift; sourceTree = "<group>"; };
 		E3F00B0225DC3BBE0009A286 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		E3F00B0A25DC92460009A286 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		E3F00B0E25DC971D0009A286 /* TagRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagRow.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 			children = (
 				E3121C9625D8A194009C4F08 /* AddItemView.swift */,
 				E39047BF25D26F0400482642 /* EditAreaView.swift */,
-				E39047C225D3B58800482642 /* MoveView.swift */,
+				E39047C225D3B58800482642 /* MoveAreaView.swift */,
 				E3FD4F3E25DBAB4300EC09EA /* MoveItemView.swift */,
 				E3FD4F3A25DB9DDE00EC09EA /* EditItemView.swift */,
 			);
@@ -343,7 +343,7 @@
 				E3F3038225C8DC1E0049DC8D /* ImagePicker.swift in Sources */,
 				E366498425CFDB8700F65C55 /* BaseEntity.swift in Sources */,
 				E3F3039A25CBC9B10049DC8D /* ViewControllerResolver.swift in Sources */,
-				E39047C325D3B58800482642 /* MoveView.swift in Sources */,
+				E39047C325D3B58800482642 /* MoveAreaView.swift in Sources */,
 				E3F00B1325DC99820009A286 /* ExpiringView.swift in Sources */,
 				E3F3035225C615190049DC8D /* Item.swift in Sources */,
 				E3121C9D25D8A218009C4F08 /* AreaRow.swift in Sources */,

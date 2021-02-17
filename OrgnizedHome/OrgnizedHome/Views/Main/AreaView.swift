@@ -45,6 +45,14 @@ struct AreaView: View {
                             Divider()
                             Button(LocalizedStringKey("Delete"), action: { subArea.delete() })
                         }
+                        .sheet(item: $activeSheet) { item in
+                            switch item {
+                            case .editSheet:
+                                EditAreaView(hideSheetCallback: { activeSheet = nil }, area: subArea)
+                            case .moveSheet:
+                                MoveAreaView(hideSheetCallback: { activeSheet = nil }, area: subArea, parent: subArea.parent)
+                            }
+                        }
                     }.onDelete(perform: deleteArea)
                 }
                 .padding(.horizontal)
